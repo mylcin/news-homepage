@@ -9,7 +9,7 @@ const Header = ({ navbar, setNavbar }) => {
 
   return (
     <header className="flex items-center justify-between py-10 px-4">
-      <img src={logo} alt={logo} className="" />
+      <img src={logo} alt={logo} className="cursor-pointer" />
       {/*Desktop Navbar */}
       <nav className="md:flex">
         <ul className="hidden md:flex px-2 gap-10 text-[#5D5F79] items-start">

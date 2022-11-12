@@ -14,7 +14,7 @@ const Hero = () => (
       />
       <div className="flex flex-col lg:flex-row mt-4">
         <div className="lg:w-3/6">
-          <h1 className="mb-4 lg:mb-0 font-bold text-6xl lg:w-5/6">
+          <h1 className="mb-4 lg:mb-0 font-[800] text-5xl lg:text-6xl lg:w-5/6">
             The Bright Future of Web 3.0?
           </h1>
         </div>
@@ -31,13 +31,13 @@ const Hero = () => (
       </div>
     </article>
     <aside className="flex flex-col mt-4 lg:mt-0 lg:ml-8 px-6 py-8 bg-[#00001A] lg:rounded-sm lg:justify-between lg:w-4/12">
-      <h2 className="text-4xl font-bold text-[#E9AB53]">New</h2>
+      <h2 className="text-4xl font-[800] text-[#E9AB53]">New</h2>
       {heroNews.map((news, index) => (
-        <div key={index} className="heroNews flex flex-col gap-3 pb-4">
+        <div key={index} className="heroNews flex flex-col gap-3 py-4">
           <h3 className="font-bold text-[#FFFDFA] text-xl ease-in duration-300 hover:text-[#E9AB53] cursor-pointer">
             {news.title}
           </h3>
-          <p className="text-[#C5C6CE] ">{news.paragrah}</p>
+          <p className="text-[#C5C6CE]">{news.paragrah}</p>
         </div>
       ))}
     </aside>
