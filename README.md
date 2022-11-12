@@ -14,7 +14,7 @@ Users should be able to:
 ![screenshot](public/Screenshot.png)
 
 ## Links
-Live Demo: [Click Here](https://your-live-site-url.com)
+Live Demo: [Click Here](https://my-news-homepage.netlify.app/)
 
 ## Built with
 - [React](https://reactjs.org/) - JS library
